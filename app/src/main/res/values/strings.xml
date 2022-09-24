@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Composition</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name_game">Состав числа</string>
+    <string name="rules_game">Правила игры: перед вами будет три фигуры, две снизу и одна сверху, в двух из них будут числа. Необходимо, чтобы сумма чтсел из двух нижних фигур была равна числе верхней фигуры, для этого нужно вставить недостающее число.</string>
+    <string name="choose_level">Выберите уровень:</string>
+    <string name="test_level">Тестовый</string>
+    <string name="test_easy">Легкий</string>
+    <string name="test_normal">Средний</string>
+    <string name="test_hard">Тяжелый</string>
+    <string name="question_mark">\?</string>
+    <string name="progress_answers">Правильных ответов %s (минимум %s)</string>
+    <string name="game_over">Game Over</string>
+    <string name="required_score">Необходимое количество правильных ответов: %s</string>
+    <string name="score_answers">Ваш счет: %s</string>
+    <string name="required_percentage">Необходимый процент правильных ответов: %s</string>
+    <string name="score_percentage">Процент правильных ответов: %s</string>
+    <string name="retry">Попробовать снова</string>
 </resources>
