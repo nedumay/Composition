@@ -2,7 +2,7 @@
     <string name="app_name">Composition</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="name_game">Состав числа</string>
-    <string name="rules_game">Правила игры: перед вами будет три фигуры, две снизу и одна сверху, в двух из них будут числа. Необходимо, чтобы сумма чтсел из двух нижних фигур была равна числе верхней фигуры, для этого нужно вставить недостающее число.</string>
+    <string name="rules_game">Правила игры: перед вами будет три фигуры, две снизу и одна сверху, в двух из них будут числа. Необходимо, чтобы сумма чисел из двух нижних фигур была равна числе верхней фигуры, для этого нужно вставить недостающее число.</string>
     <string name="choose_level">Выберите уровень:</string>
     <string name="test_level">Тестовый</string>
     <string name="test_easy">Легкий</string>
