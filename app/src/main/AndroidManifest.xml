@@ -11,7 +11,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.Composition"
-        tools:targetApi="31">
+        tools:targetApi="33">
         <activity
             android:name=".presentatin.MainActivity"
             android:screenOrientation="portrait"
