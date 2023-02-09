@@ -27,25 +27,25 @@
             android:layout_width="96dp"
             android:layout_height="wrap_content"
             android:background="@color/teal_700"
-            app:layout_constraintBottom_toTopOf="@+id/tv_option_1"
-            app:layout_constraintEnd_toStartOf="@+id/textView"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_sum"
+            app:layout_constraintEnd_toStartOf="@+id/textView2"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="@+id/tv_sum"
             tools:text="7" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="+"
+            android:text="-"
             android:textColor="@color/black"
             android:textSize="48sp"
-            app:layout_constraintBottom_toBottomOf="@+id/tv_left_number"
-            app:layout_constraintEnd_toStartOf="@+id/tv_question"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_sum"
+            app:layout_constraintEnd_toStartOf="@+id/tv_left_number"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/tv_left_number"
-            app:layout_constraintTop_toTopOf="@+id/tv_left_number" />
+            app:layout_constraintStart_toEndOf="@+id/tv_sum"
+            app:layout_constraintTop_toTopOf="@+id/tv_sum" />
 
         <TextView
             android:id="@+id/tv_question"
@@ -55,9 +55,9 @@
             android:background="@color/purple_500"
             android:text="@string/question_mark"
             app:layout_constraintBottom_toBottomOf="@+id/tv_left_number"
-            app:layout_constraintEnd_toStartOf="@+id/textView2"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
             app:layout_constraintTop_toTopOf="@+id/tv_left_number" />
 
         <TextView
@@ -67,23 +67,24 @@
             android:text="="
             android:textColor="@color/black"
             android:textSize="48sp"
-            app:layout_constraintBottom_toBottomOf="@+id/tv_question"
-            app:layout_constraintEnd_toStartOf="@+id/tv_sum"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_left_number"
+            app:layout_constraintEnd_toStartOf="@+id/tv_question"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/tv_question"
-            app:layout_constraintTop_toTopOf="@+id/tv_question" />
+            app:layout_constraintStart_toEndOf="@+id/tv_left_number"
+            app:layout_constraintTop_toTopOf="@+id/tv_left_number" />
 
         <TextView
             android:id="@+id/tv_sum"
             style="@style/QuestionTextStyle"
             android:layout_width="96dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
             android:background="@color/teal_700"
-            app:layout_constraintBottom_toBottomOf="@+id/tv_question"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/tv_option_2"
+            app:layout_constraintEnd_toStartOf="@+id/textView"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/textView2"
-            app:layout_constraintTop_toTopOf="@+id/tv_question"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             tools:text="8" />
 
         <TextView
@@ -159,8 +160,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:textSize="18sp"
             android:text="@string/progress_answers"
+            android:textSize="18sp"
             app:layout_constraintBottom_toTopOf="@id/progress_bar"
             app:layout_constraintVertical_chainStyle="spread"
             tools:layout_editor_absoluteX="16dp" />
